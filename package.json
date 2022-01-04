@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "source": "input.js",
+  "main": "output.js",
+  "scripts": {
+    "build": "parcel build && node input.js && node output.js"
+  },
+  "devDependencies": {
+    "esmo": "^0.13.0",
+    "parcel": "^2.0.1"
+  }
+}
